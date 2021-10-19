@@ -9,7 +9,7 @@ namespace INADevOps2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Program p = new Program(;
+            Program p = new Program();
             Console.Write("EScribe tu nombre ");
             string n = Console.ReadLine();
             p.Transformar(n);
